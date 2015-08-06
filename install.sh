@@ -1546,7 +1546,7 @@ assert_linux_x86_64
 assert_usable_kernel
 detect_current_uid
 detect_userns_clone
-assert_userns_clone_works_or_can_be_made_to_work
+# assert_userns_clone_works_or_can_be_made_to_work
 handle_args "$@"
 assert_on_terminal
 assert_dependencies
